@@ -11,6 +11,8 @@
 		0144FC7727C8C4C900FB34EC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0144FC7627C8C4C900FB34EC /* ContentView.swift */; };
 		0144FC7927C8C4CB00FB34EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0144FC7827C8C4CB00FB34EC /* Assets.xcassets */; };
 		0144FC7C27C8C4CB00FB34EC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0144FC7B27C8C4CB00FB34EC /* Preview Assets.xcassets */; };
+		01942F7C27D65D8F009AE9EC /* ButtonViewEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01942F7B27D65D8F009AE9EC /* ButtonViewEx.swift */; };
+		01942F7E27D661CC009AE9EC /* TapGestureViewEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01942F7D27D661CC009AE9EC /* TapGestureViewEx.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		0144FC7627C8C4C900FB34EC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0144FC7827C8C4CB00FB34EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0144FC7B27C8C4CB00FB34EC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		01942F7B27D65D8F009AE9EC /* ButtonViewEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonViewEx.swift; sourceTree = "<group>"; };
+		01942F7D27D661CC009AE9EC /* TapGestureViewEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapGestureViewEx.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,7 @@
 		0144FC7327C8C4C900FB34EC /* SwiftUITutorial */ = {
 			isa = PBXGroup;
 			children = (
+				01942F7A27D65D6C009AE9EC /* Element */,
 				0144FC7427C8C4C900FB34EC /* SwiftUITutorialApp.swift */,
 				0144FC7627C8C4C900FB34EC /* ContentView.swift */,
 				0144FC7827C8C4CB00FB34EC /* Assets.xcassets */,
@@ -65,6 +70,15 @@
 				0144FC7B27C8C4CB00FB34EC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		01942F7A27D65D6C009AE9EC /* Element */ = {
+			isa = PBXGroup;
+			children = (
+				01942F7B27D65D8F009AE9EC /* ButtonViewEx.swift */,
+				01942F7D27D661CC009AE9EC /* TapGestureViewEx.swift */,
+			);
+			path = Element;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +152,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0144FC7727C8C4C900FB34EC /* ContentView.swift in Sources */,
+				01942F7E27D661CC009AE9EC /* TapGestureViewEx.swift in Sources */,
 				0144FC7527C8C4C900FB34EC /* SwiftUITutorialApp.swift in Sources */,
+				01942F7C27D65D8F009AE9EC /* ButtonViewEx.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
